@@ -32,3 +32,5 @@ int main(){
 	for(int a:primes) cout << a << " ";
 	return 0;
 }
+
+//Time Complexity:O(n*log(log(n))) because the inner for loop runs for (n/2+n/3+n/5+....) which reduces to log(log(n))

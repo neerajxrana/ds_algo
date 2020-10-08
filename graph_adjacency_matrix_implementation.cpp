@@ -27,3 +27,6 @@ int main(){
 	}
 	return 0;
 }
+
+//Space Complexity: O(V^2) for the V*V matrix
+//Time Complextiy: O(v^2) for adding a new vertex

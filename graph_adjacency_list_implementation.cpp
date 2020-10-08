@@ -30,3 +30,6 @@ int main(){
 
 	return 0;
 }
+
+//Space Complexity: O(V+E), worst case O(V^2) when every node is connected to all others
+//Time Complexity: O(V) for checking if edge is present
