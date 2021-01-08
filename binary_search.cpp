@@ -14,7 +14,7 @@ int iter_binary_search(int arr[], int x, int l, int r){
 }
 
 int rec_binary_search(int arr[], int x, int l, int r){
-	if(r>=1){
+	if(r>=l){
 		int m = l + (r - l)/2;
 		if(arr[m] == x) return m;
 		if(arr[m] < x) return rec_binary_search(arr, x, m+1, r);
