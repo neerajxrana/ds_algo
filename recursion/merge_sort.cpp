@@ -18,7 +18,7 @@ void mergesort(int arr[], int l, int r){
 		merge(arr, l, m, r);
 	}
 }
-
+// just a small change
 int main(){
 	int arr = {4,6,6,19,0,1};
 	int size = sizeof(arr)/sizeof(arr[0]);
